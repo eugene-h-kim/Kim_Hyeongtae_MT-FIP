@@ -20,7 +20,13 @@ img {
   padding: 0;
 }
 
-/* END Basic Reset */
+p {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* end Basic Reset */
 
 
 /* html selectors */
@@ -37,22 +43,24 @@ body {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #fff;
 }
 
 a:hover, a:active {
   text-decoration: none;
-  color: #666;
 }
+
 
 
 /* ========== Landing Page ========== */
 
 /* Main page elements */
 
+/* Site Container */
+
 #siteContainer {
   margin: 0 auto;
   width: 1366px;
+  height: auto;
 }
 
 #mainHeader {
@@ -60,7 +68,6 @@ a:hover, a:active {
   justify-content: center;
   margin-top: 135px;
   margin-bottom: 50px;
-
 }
 
 #caution {
@@ -137,6 +144,14 @@ a:hover, a:active {
   margin-bottom: 30px;
 }
 
+a:link, a:visited {
+  color: #fff;
+}
+
+a:hover, a:active {
+  color: #666;
+}
+
 footer {
   text-align: center;
   color: #fff;
@@ -157,5 +172,166 @@ footer p {
 /* ========== End of Landing Page ========== */
 
 
-/* ========== Home ========== */
+/* ========== Home Page ========== */
+
+body#index {
+  background-color: #fff;
+}
+
+#logo img {
+  width: 120px;
+}
+
+/* Index Container */
+
+/* Index Header */
+
+#indexHeader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+#indexNav {
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#indexNav ul {
+  text-transform: uppercase;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#indexNav ul li a {
+  display: block;
+  width: 100px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#indexNav ul li a:hover, a:active {
+  color: rgb(19, 41, 75);
+}
+
+/* End Index Header */
+
+/* Index Hero Image */
+
+#indexHeroImage {
+  display: flex;
+  width: 1366px;
+}
+
+/* End Hero Image */
+
+
+/* Index Head Copy */
+
+#indexHeadCopy {
+  margin-left: 100px;
+  margin-top: -500px;
+  color: #fff;
+}
+
+#indexHeadCopy h1 {
+  font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+#indexHeadCopy h1 span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+
+.indexHeadline {
+  padding-bottom: 15px;
+}
+
+#indexHeadCopy p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.3em;
+  font-family: 'Franklin Gothic book', 'Arial Narrow', Arial, sans-serif;
+}
+
+#getBeer {
+  display: inline-block;
+  width: 150px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+/* End Index Head Copy */
+
+/* Brand Features */
+
+#brandFeatures {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+  margin-bottom: 80px;
+}
+
+.brandFeatures-1 {
+  width: 480px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.brandFeatures-1 p {
+  text-align: left;
+  line-height: 1.2em;
+}
+
+.brandLogo {
+  width: 480px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+.brandFeatures-2 {
+  width: 480px;
+  height: 400px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.brandFeatures-2 p {
+  text-align: left;
+  line-height: 1.2em;
+}
+
+/* End Brand Features */
+
+/* ========== End Home Page ========== */
+
+
+/* ========== About Page ========== */
+
+
 
