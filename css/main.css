@@ -383,9 +383,9 @@ body#about {
   color: rgb(19, 41, 75);
 }
 
-/* End Index Header */
+/* End About Header */
 
-/* Index Hero Image */
+/* About Hero Image */
 
 #aboutHeroImage {
   display: flex;
@@ -477,6 +477,131 @@ body#about {
 /* End Index Brand Features */
 
 /* ========== End About Page ========== */
+
+
+/* ========== Products Page ========== */
+
+body#products {
+  background-color: #fff;
+}
+
+#logo img {
+  width: 120px;
+}
+
+/* About Container */
+
+/* About Header */
+
+#productsHeader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+#productsNav {
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#productsNav ul {
+  text-transform: uppercase;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#productsNav ul li a {
+  display: block;
+  width: 100px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#productsNav ul li a:hover, a:active {
+  color: rgb(19, 41, 75);
+}
+
+/* End Products Header */
+
+/* Products Hero Image */
+
+#productsHeroImage {
+  display: flex;
+  width: 1366px;
+  height: 300px;
+  overflow: hidden;
+}
+
+#productsHeroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+/* Products Head Copy */
+
+#productsHeadCopy {
+  display: flex;
+  justify-content: center;
+  margin-top: -175px;
+  /* margin-left: 100px; */
+  color: rgb(255, 0, 0);
+}
+
+#productsHeadCopy h1 {
+  font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+#getBeer {
+  display: inline-block;
+  width: 150px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+/* End Products Head Copy */
+
+/* Product Type */
+
+#productType {
+  display: flex;
+  justify-content: space-between;
+  margin: 180px 100px 80px;
+}
+
+.productType {
+  background-color: #000;
+  width: 200px;
+  height: 400px;
+}
+
+.productType p {
+  color: #fff;
+  text-align: center;
+  line-height: 22em;
+}
+
+
+/* End Product Type */
 
 
 
