@@ -284,28 +284,27 @@ body#index {
 
 /* End Index Head Copy */
 
-/* Brand Features */
+/* Index Brand Features */
 
-#brandFeatures {
+#indexBrandFeatures {
   display: flex;
   justify-content: space-between;
   margin-top: 300px;
-  margin-bottom: 80px;
 }
 
-.brandFeatures-1 {
+.indexBrandFeatures-1 {
   width: 480px;
   height: 400px;
   margin-top: 100px;
   margin-left: 50px;
 }
 
-.brandFeatures-1 p {
+.indexBrandFeatures-1 p {
   text-align: left;
   line-height: 1.2em;
 }
 
-.brandLogo {
+.indexBrandLogo {
   width: 480px;
   height: 400px;
   margin-top: 50px;
@@ -314,24 +313,203 @@ body#index {
   
 }
 
-.brandFeatures-2 {
+.indexBrandFeatures-2 {
   width: 480px;
   height: 400px;
   margin-top: 100px;
   margin-right: 50px;
 }
 
-.brandFeatures-2 p {
+.indexBrandFeatures-2 p {
   text-align: left;
   line-height: 1.2em;
 }
 
-/* End Brand Features */
+/* End Index Brand Features */
 
 /* ========== End Home Page ========== */
 
 
+
 /* ========== About Page ========== */
 
+body#about {
+  background-color: #fff;
+}
+
+#logo img {
+  width: 120px;
+}
+
+/* About Container */
+
+/* About Header */
+
+#aboutHeader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+#aboutNav {
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#aboutNav ul {
+  text-transform: uppercase;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#aboutNav ul li a {
+  display: block;
+  width: 100px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#aboutNav ul li a:hover, a:active {
+  color: rgb(19, 41, 75);
+}
+
+/* End Index Header */
+
+/* Index Hero Image */
+
+#aboutHeroImage {
+  display: flex;
+  width: 1366px;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+#aboutHeroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+/* About Head Copy */
+
+#aboutHeadCopy {
+  display: flex;
+  justify-content: center;
+  margin-top: -175px;
+  /* margin-left: 100px; */
+  color: #fff;
+}
+
+#aboutHeadCopy h1 {
+  font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+#getBeer {
+  display: inline-block;
+  width: 150px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+/* End About Head Copy */
+
+/* About Brand Features */
+
+#aboutBrandFeatures {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.aboutBrandFeatures-1 {
+  width: 480px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.aboutBrandFeatures-1 p {
+  text-align: left;
+  line-height: 1.2em;
+}
+
+.aboutBrandLogo {
+  width: 480px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+.aboutBrandFeatures-2 {
+  width: 480px;
+  height: 400px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.aboutBrandFeatures-2 p {
+  text-align: left;
+  line-height: 1.2em;
+}
+
+/* End Index Brand Features */
+
+/* ========== End About Page ========== */
 
 
+
+/* Footer */
+
+#mainFooter {
+  background-color: rgb(200, 16, 46);
+  height: 200px;
+}
+
+#footerNav {
+  width: 500px;
+  height: 30px;
+  text-transform: uppercase;
+  margin-left: 420px;
+  padding-top: 50px;
+}
+
+#footerNav ul li {
+  display: inline;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+#mainFooter p {
+  color: #fff;
+}
+
+#copyRight {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px
+}
+
+/* End Footer */
