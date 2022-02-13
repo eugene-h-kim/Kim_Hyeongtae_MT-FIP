@@ -489,9 +489,9 @@ body#products {
   width: 120px;
 }
 
-/* About Container */
+/* Products Container */
 
-/* About Header */
+/* Products Header */
 
 #productsHeader {
   margin-top: 20px;
@@ -555,7 +555,7 @@ body#products {
   justify-content: center;
   margin-top: -175px;
   /* margin-left: 100px; */
-  color: rgb(255, 0, 0);
+  color: rgb(200, 16, 46);
 }
 
 #productsHeadCopy h1 {
@@ -600,8 +600,203 @@ body#products {
   line-height: 22em;
 }
 
-
 /* End Product Type */
+
+/* ========== End Products Page ========== */
+
+
+
+/* ========== Contact Page ========== */
+
+body#contact {
+  background-color: #fff;
+}
+
+#logo img {
+  width: 120px;
+}
+
+/* Contact Container */
+
+/* Contact Header */
+
+#contactHeader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+#contactNav {
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactNav ul {
+  text-transform: uppercase;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#contactNav ul li a {
+  display: block;
+  width: 100px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#contactNav ul li a:hover, a:active {
+  color: rgb(19, 41, 75);
+}
+
+/* End Contact Header */
+
+/* Contact Hero Image */
+
+#contactHeroImage {
+  display: flex;
+  width: 1366px;
+  height: 300px;
+  overflow: hidden;
+}
+
+#contactHeroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+/* Contact Head Copy */
+
+#contactHeadCopy {
+  display: flex;
+  justify-content: center;
+  margin-top: -175px;
+  /* margin-left: 100px; */
+  color: #fff;
+}
+
+#contactHeadCopy h1 {
+  font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+#getBeer {
+  display: inline-block;
+  width: 150px;
+  background-color: rgb(200, 16, 46);
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+/* End Contact Head Copy */
+
+iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.find-us {
+  margin-top: 100px;
+}
+
+.find-us p {
+  /* border-bottom: 1px solid #eee; */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.find-us h4 {
+  font-size: 17px;
+  color: #6e1d2b;
+  margin-bottom: 10px;
+}
+
+.find-us .left-content {
+  margin-left: 30px;
+}
+
+/* Send Message */
+
+.send-message {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-form input {
+  font-size: 14px;
+  width: 100%;
+  height: 44px;
+  display: inline-block;
+  line-height: 42px;
+  border: 1px solid #eee;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+
+.contact-form input:focus {
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+
+.content-form textarea {
+  font-size: 14px;
+  width: 100%;
+  min-width: 100%;
+  min-height: 120px;
+  height: 120px;
+  max-height: 180px;
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+.contact-form textarea:focus {
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+
+.contact-form button.filled-button {
+  background-color: #6e1d2b;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.contact-form button.filled-button:hover {
+  background-color: #121212;
+  color: #fff;
+}
+
+
+
+
+
+
 
 
 
