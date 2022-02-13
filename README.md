@@ -1,5 +1,8 @@
 # Kim_Hyeongtae_MT-FIP
 
+
+## Introduction - Lysol Beer Brand
+
 While looking for new eco-friendly ingredients by Lysol, which makes disinfecting cleaner products, it succeeded in extracting new ingredients that have not been known so far from hop, a raw material for beer. This ingredient, named Lysol Hop, can dramatically kill bacteria and viruses up to 99.9%, but is completely harmless to the human body, further increasing the taste of beer through a series of processes. Lysol and Budweiser have found the possibility of Lysol Hop and launched a new beer brand Lysol Beer based on it.
 <hr>
 
