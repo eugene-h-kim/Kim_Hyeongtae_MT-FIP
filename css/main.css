@@ -261,21 +261,17 @@ body#index {
   color: #fff;
 }
 
-#indexHeadCopy h1 {
+#indexHeadCopy h3 {
   font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
   font-size: 65px;
   font-weight: 700;
 }
 
-#indexHeadCopy h1 span {
+#indexHeadCopy span {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 35px;
   font-weight: 300;
   line-height: 1.3em;
-}
-
-.indexHeadline {
-  padding-bottom: 15px;
 }
 
 #indexHeadCopy p {
@@ -428,7 +424,7 @@ body#about {
   color: #fff;
 }
 
-#aboutHeadCopy h1 {
+#aboutHeadCopy h2 {
   font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
   font-size: 65px;
   font-weight: 700;
@@ -575,7 +571,7 @@ body#products {
   color: rgb(200, 16, 46);
 }
 
-#productsHeadCopy h1 {
+#productsHeadCopy h2 {
   font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
   font-size: 65px;
   font-weight: 700;
@@ -599,7 +595,7 @@ body#products {
 
 /* Product Type */
 
-#productType {
+#productType1, #productType2 {
   display: flex;
   justify-content: space-between;
   margin: 180px 100px 80px;
@@ -625,7 +621,7 @@ body#products {
 
 /* ========== Contact Page ========== */
 
-body#contact {
+body#contactBody {
   background-color: #fff;
 }
 
@@ -702,7 +698,7 @@ body#contact {
   color: #fff;
 }
 
-#contactHeadCopy h1 {
+#contactHeadCopy h2 {
   font-family: 'Franklin Gothic Condensed', 'Arial Narrow', Arial, sans-serif;
   font-size: 65px;
   font-weight: 700;
@@ -724,9 +720,26 @@ body#contact {
 
 /* End Contact Head Copy */
 
+.find-us {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.find-us h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #272727;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 iframe {
   width: 100%;
-  height: 350px;
+  height: 500px;
+  margin-bottom: 30px;
 }
 
 .find-us {
@@ -734,14 +747,13 @@ iframe {
 }
 
 .find-us p {
-  /* border-bottom: 1px solid #eee; */
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
 .find-us h4 {
-  font-size: 17px;
-  color: #6e1d2b;
+  font-size: 20px;
+  color: rgb(200, 16, 46);
   margin-bottom: 10px;
 }
 
@@ -756,11 +768,21 @@ iframe {
   margin-bottom: 100px;
 }
 
+.send-message h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #272727;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .contact-form input {
   font-size: 14px;
   width: 100%;
   height: 44px;
   display: inline-block;
+  align-items: center;
   line-height: 42px;
   border: 1px solid #eee;
   border-radius: 0px;
@@ -777,7 +799,7 @@ iframe {
   width: 100%;
   min-width: 100%;
   min-height: 120px;
-  height: 120px;
+  height: 150px;
   max-height: 180px;
   border: 1px solid #eee;
   margin-bottom: 30px;
@@ -789,7 +811,7 @@ iframe {
 }
 
 .contact-form button.filled-button {
-  background-color: #6e1d2b;
+  background-color: rgb(200, 16, 46);
   color: #fff;
   font-size: 14px;
   text-transform: capitalize;
